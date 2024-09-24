@@ -7,30 +7,14 @@
 
 
 
-<audio controls="">
-  <source src="https://dygmaster.radyotvonline.net/kralfm/playlist.m3u8" type="audio/ogg">
-  <source src="https://dygmaster.radyotvonline.net/kralfm/playlist.m3u8" type="audio/mpeg">
-Radyo 45lik Canlı Yayın - En İyi Türkçe Nostalji Şarkılar | 70ler 80ler ve 90lar
 
-Türkiye'nin Nostalji Radyosu Radyo 45'lik, Türk müziğinde iz bırakan şarkıları dinleten ulusal radyo kanalıdır. 70'ler 80'ler ve 90'lar dönemine ait Türkçe pop müzik sevenler ve geçmişe özlemini şarkılarla giderenlerin vazgeçilmezi Radyo 45lik şarkılarını kesintisiz dinleyebilirsiniz.
-
-İstanbul 91.2
-Ankara 93.8
-İzmir 107.0
-Bulunduğunuz şehrin frekansını öğrenmek için www.radyo45lik.com'u ziyaret edin.
+<audio id="stream" controls preload="none" autoplay style="width: 400px;">
+<source src="http://yayin.liderhost.net:9444/;" type="audio/mpeg">
 </audio>
-
-
-
-
-<!-- RadyoTelekom.com Player -->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script type="text/javascript" src="http://girdapajans.com/radyotelekom_bar.js"></script>
-<div id="rcast" style="height:80px; width:500px;"></div>
-<script type="text/javascript">
-$("#rcast").rcast({themecolor: "#1C7EFF", backsidecolor: "#1C7EFF", playsidecolor: "#1C7EFF", volumesidecolor: "#1C7EFF", channelurls: "https://dygmaster.radyotvonline.net/kralfm/playlist.m3u8", radioname: "RADYO GECEYEMERHABA", scroll: "AUTO", startvolume: "75", autoplay: "FALSE", html5: "TRUE", html5chrome: "TRUE", debug: "TRUE", songtitleurl: ""});
+<script>
+var audio = document.getElementById('stream');
+audio.volume = 0.5;
 </script>
-<!-- RadyoTelekom.com Player -->
 
             
             
